@@ -1,17 +1,15 @@
-heml {
-	overflow:  hidden;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.section {
+body {
+	height: 100vh;
+	overflow: hidden;
+
+}
+
+img {
+	height: 100vh;
 	width: 100%;
-	height: 100%;
-	positon: relative;
-}
-
-#floor1 {
-	background-color: pink;
-}
-
-#floor2 {
-	background-color: blue;
 }
