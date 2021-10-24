@@ -1,0 +1,17 @@
+heml {
+	overflow:  hidden;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	positon: relative;
+}
+
+#floor1 {
+	background-color: pink;
+}
+
+#floor2 {
+	background-color: blue;
+}
