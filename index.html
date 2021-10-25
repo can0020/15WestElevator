@@ -10,13 +10,6 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body onload="scrollBottom()">
-       	<div id="7"><img src="7.png"></div>
-       	<div id="6"><img src="6.png"></div>
-       	<div id="5"><img src="5.jpg"></div>
-       	<div id="4"><img src="4.jpg"></div>
-       	<div id="3"><img src="3.png"></div>
-       	<div id="2"><img src="2.png"></div>
-       	<div id="1"><img src="1.png"></div>
        	<script>
        	window.onload = function() {
        		window.scrollTo(0,document.body.scrollHeight)
@@ -24,4 +17,32 @@
        
        	</script>
 	</body>
+
+	<style>
+		html {scroll-behavior: smooth;}
+	</style>
+
+	<div class="floor" id="section1">
+ 	 <a href="#section2"><img src="7.png"></a>
+	</div>
+
+	<div class="floor" id="section2">
+ 	 <a href="#section1"><img src="6.png"></a>
+
+ 	<div class="floor" id="section3">
+ 	 <a href="#section2"><img src="5.jpg"></a>
+
+ 	<div class="floor" id="section4">
+ 	 <a href="#section3"><img src="4.jpg"></a>
+	</div>
+
+	<div class="floor" id="section5">
+ 	 <a href="#section4"><img src="3.png"></a>
+
+	<div class="floor" id="section6">
+ 	 <a href="#section5"><img src="2.png"></a>
+
+ 	<div class="floor" id="section7">
+ 	 <a href="#section6"><img src="1.png"></a>
+
 </html>
