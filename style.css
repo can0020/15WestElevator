@@ -3,6 +3,16 @@
 	padding: 0;
 }
 
+html {scroll-behavior: smooth;}
+
+	#1 {height:  600px;}
+	#2 {height:  600px;}
+	#3 {height:  600px;}
+	#4 {height:  600px;}
+	#5 {height:  600px;}
+	#6 {height:  600px;}
+	#7 {height:  600px;}
+
 img {
 	height: 100%;
 	width: 100%;
